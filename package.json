@@ -5,7 +5,7 @@
   "scripts": {
     "start": "npm-run-all --parallel watch fractal",
     "watch": "webpack --watch",
-    "fractal": "PORT=9002 fractal start --sync",
+    "fractal": "fractal start --sync",
     "build": "webpack --mode development",
     "test": "jest"
   },
