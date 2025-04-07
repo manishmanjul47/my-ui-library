@@ -10,6 +10,29 @@ This project is a modular, scalable UI component library built with:
 
 ---
 
+## Getting Started
+
+After cloning this project, follow the steps below to get it running locally:
+
+### 1. Install dependencies
+
+```bash
+npm install
+```
+
+### 2. Build assets (JS and SCSS)
+
+```bash
+npm run build
+```
+
+### 3. Start Fractal component explorer
+
+```bash
+npm start
+```
+
+
 ## Project Structure
 
 ```bash
