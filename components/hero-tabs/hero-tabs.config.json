@@ -1,0 +1,59 @@
+{
+    "title": "Hero Section with Tabs",
+    "status": "wip",
+    "context": {
+      "hero": {
+        "eyebrow": "LOREM IPSUM DOLOR SIT AMET",
+        "title": "consectetur adipiscing elit",
+        "intro": "Donec suscipit ex eu faucibus <a href='#'>laoreet</a>. Nulla non neque mauris. Quisque molestie aliquam sem eget mattis. Suspendisse vehicula nisl non quam imperdiet fringilla. Sed sodales ante vel lectus vestibulum."
+      },
+      "tabs": {
+        "tab-list": {
+          "aria-label": "Sample Tab List",
+          "tabs": [
+            {
+              "label": "Lorem ipsum",
+              "tab-element": { "id": "tab-1" },
+              "tab-panel": { "tab-id": "tab-1" },
+              "active": true
+            },
+            {
+              "label": "Quisque at pretium",
+              "tab-element": { "id": "tab-2" },
+              "tab-panel": { "tab-id": "tab-2" },
+              "active": false
+            },
+            {
+              "label": "Nulla facilisi",
+              "tab-element": { "id": "tab-3" },
+              "tab-panel": { "tab-id": "tab-3" },
+              "active": false
+            }
+          ]
+        },
+        "tab-panels": {
+          "panels": [
+            {
+              "tab-panel": { "tab-id": "tab-1" },
+              "heading": "Lorem ipsum dolor sit amet",
+              "description": "Morbi non <a href='#'>lacus</a> nunc. Maecenas sit amet mattis nibh...",
+              "active": true
+            },
+            {
+              "tab-panel": { "tab-id": "tab-2" },
+              "heading": "Quisque at pretium justo",
+              "description": "<a href='#'>Aliquam</a> vel mollis ligula. Mauris blandit vitae libero...",
+              "active": false
+            },
+            {
+              "tab-panel": { "tab-id": "tab-3" },
+              "heading": "Nulla facilisi viverra non",
+              "description": "Nam lorem magna, iaculis in ornare ut...",
+              "active": false
+            }
+          ]
+        }
+      }
+    }
+  }
+  

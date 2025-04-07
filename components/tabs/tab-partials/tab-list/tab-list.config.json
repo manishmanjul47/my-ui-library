@@ -1,0 +1,28 @@
+{
+  "title": "Tab List",
+  "status": "wip",
+  "context": {
+    "is-isolated": true,
+    "aria-label": "Sample Tab List",
+    "tabs": [
+      {
+        "label": "Lorem ipsum",
+        "tab-element": { "id": "tab-1" },
+        "tab-panel": { "tab-id": "tab-1" },
+        "active": true
+      },
+      {
+        "label": "Quisque at pretium",
+        "tab-element": { "id": "tab-2" },
+        "tab-panel": { "tab-id": "tab-2" },
+        "active": false
+      },
+      {
+        "label": "Nulla facilisi",
+        "tab-element": { "id": "tab-3" },
+        "tab-panel": { "tab-id": "tab-3" },
+        "active": false
+      }
+    ]
+  }
+}

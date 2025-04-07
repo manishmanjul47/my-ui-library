@@ -1,0 +1,104 @@
+{
+  "title": "Tab Component",
+  "status": "wip",
+  "context": {
+    "tab-list": {
+      "aria-label": "Sample Tab List",
+      "tabs": [
+        {
+          "tab-element": { "id": "tab-1" },
+          "tab-panel": { "tab-id": "tab-1" },
+          "label": "Lorem ipsum",
+          "active": true
+        },
+        {
+          "tab-element": { "id": "tab-2" },
+          "tab-panel": { "tab-id": "tab-2" },
+          "label": "Quisque at pretium",
+          "active": false
+        },
+        {
+          "tab-element": { "id": "tab-3" },
+          "tab-panel": { "tab-id": "tab-3" },
+          "label": "Nulla facilisi",
+          "active": false
+        }
+      ]
+    },
+    "tab-panels": {
+      "panels": [
+        {
+          "tab-panel": { "tab-id": "tab-1" },
+          "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "description": "Morbi non <a href='#'>lacus</a> nunc. Maecenas sit amet mattis nibh, volutpat semper odio...",
+          "active": true
+        },
+        {
+          "tab-panel": { "tab-id": "tab-2" },
+          "heading": "Quisque at pretium justo.",
+          "description": "<a href='#'>Aliquam</a> vel mollis ligula. Mauris blandit vitae libero vel tincidunt.",
+          "active": false
+        },
+        {
+          "tab-panel": { "tab-id": "tab-3" },
+          "heading": "Nulla facilisi viverra non, fermentum ac.",
+          "description": "Nam lorem magna, iaculis in ornare ut, commodo eget nunc.",
+          "active": false
+        }
+      ]
+    }
+  },
+  "variants": [
+    {
+      "name": "long-labels",
+      "label": "Long Tab Labels",
+      "context": {
+        "tab-list": {
+          "aria-label": "Tab List with Long Labels",
+          "tabs": [
+            {
+              "tab-element": { "id": "tab-1" },
+              "tab-panel": { "tab-id": "tab-1" },
+              "label": "Lorem ipsum",
+              "active": true
+            },
+            {
+              "tab-element": { "id": "tab-2" },
+              "tab-panel": { "tab-id": "tab-2" },
+              "label": "Quisque at pretium pretium",
+              "active": false
+            },
+            {
+              "tab-element": { "id": "tab-3" },
+              "tab-panel": { "tab-id": "tab-3" },
+              "label": "Nulla facilisi",
+              "active": false
+            }
+          ]
+        },
+        "tab-panels": {
+          "panels": [
+            {
+              "tab-panel": { "tab-id": "tab-1" },
+              "heading": "Handling label",
+              "description": "Content for a tab with a long label.",
+              "active": true
+            },
+            {
+              "tab-panel": { "tab-id": "tab-2" },
+              "heading": "Second long label",
+              "description": "Another tab content area with long label testing.",
+              "active": false
+            },
+            {
+              "tab-panel": { "tab-id": "tab-3" },
+              "heading": "Short tab",
+              "description": "A normal short tab for reference.",
+              "active": false
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

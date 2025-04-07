@@ -1,0 +1,15 @@
+{{#if is-isolated}}<div class="tabby">{{/if}}
+  <div role="tablist" aria-label="{{aria-label}}">
+    {{#each tabs}}
+      <button
+        role="tab"
+        id="{{tab-element.id}}"
+        data-target="{{tab-panel.tab-id}}"
+        aria-selected="{{#if active}}true{{else}}false{{/if}}"
+        {{#unless active}}tabindex="-1"{{/unless}}
+      >
+        {{label}}
+      </button>
+    {{/each}}
+  </div>
+{{#if is-isolated}}</div>{{/if}}

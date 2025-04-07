@@ -1,0 +1,25 @@
+.hero-section {
+  text-align: center;
+  background: #f0f8ff;
+  padding: 3rem 1rem;
+
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #0074b8;
+    font-size: 0.85rem;
+  }
+
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+  }
+
+  .intro {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1rem;
+    color: #333;
+  }
+}

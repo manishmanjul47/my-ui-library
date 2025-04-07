@@ -1,0 +1,16 @@
+{{#if is-isolated}}<div class="tabby">{{/if}}
+  <div class="tabs-contents">
+    {{#each panels}}
+    <section role="tabpanel" tabindex="-1" aria-labelledby="{{tab-panel.tab-id}}" {{#unless active}}hidden{{/unless}}>
+      <h2>{{heading}}</h2>
+      <p>{{{description}}}</p>
+      <div class="back-wrap">
+        <button class="back-to-tabs" data-tab-id="{{tab-panel.tab-id}}">
+          ← Back to tabs
+        </button>
+      </div>
+    </section>
+    {{/each}}
+  </div>
+  {{#if is-isolated}}
+</div>{{/if}}

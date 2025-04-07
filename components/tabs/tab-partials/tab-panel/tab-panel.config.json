@@ -1,0 +1,27 @@
+{
+  "title": "Tab Panels",
+  "status": "wip",
+  "context": {
+    "is-isolated": true,
+    "panels": [
+      {
+        "tab-panel": { "tab-id": "tab-1" },
+        "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "description": "Morbi non <a href='#'>lacus</a> nunc. Maecenas sit amet mattis nibh, volutpat semper odio. Nulla a mauris eu purus ultrices aliquam...",
+        "active": true
+      },
+      {
+        "tab-panel": { "tab-id": "tab-2" },
+        "heading": "Quisque at pretium justo.",
+        "description": "<a href='#'>Aliquam</a> vel mollis ligula. Mauris blandit vitae libero vel tincidunt.",
+        "active": false
+      },
+      {
+        "tab-panel": { "tab-id": "tab-3" },
+        "heading": "Nulla facilisi viverra non, fermentum ac.",
+        "description": "Nam lorem magna, iaculis in ornare ut, commodo eget nunc.",
+        "active": false
+      }
+    ]
+  }
+}

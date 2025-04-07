@@ -1,0 +1,9 @@
+{
+    "title": "A Hero Section Component",
+    "status": "wip",
+    "context": {
+      "eyebrow": "LOREM IPSUM DOLOR SIT AMET",
+      "title": "consectetur adipiscing elit",
+      "intro": "Donec suscipit ex eu faucibus <a href='#'>laoreet</a>. Nulla non neque mauris. Quisque molestie aliquam sem eget mattis. Suspendisse vehicula nisl non quam imperdiet fringilla. Sed sodales ante vel lectus vestibulum."
+    }
+}
